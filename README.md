@@ -37,10 +37,11 @@ enum Polarity {
     COMMON\_CATHODE,  // Common-cathode display
     COMMON\_ANODE     // Common-anode display
 };
+```
 
 ---
 
-## 4. Constructor
+## 4\. Constructor
 
 ```cpp
 CH455(uint8\_t sclPin, uint8\_t sdaPin, Polarity polarity);
